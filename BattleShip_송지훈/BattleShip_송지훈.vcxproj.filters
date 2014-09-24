@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{b7851bbe-2896-47de-8164-36bd077769aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ship">
+      <UniqueIdentifier>{d3deaec6-c54b-466c-8ca9-b0c09e04ac96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Aircraft.h">
+      <Filter>Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Battleship.h">
+      <Filter>Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Crusier.h">
+      <Filter>Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Destroyer.h">
+      <Filter>Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Ship</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Board.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h" />
+    <ClInclude Include="Struct.h" />
+    <ClInclude Include="..\include\Network.h" />
+    <ClInclude Include="..\include\PacketType.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="Aircraft.cpp">
+      <Filter>Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Battleship.cpp">
+      <Filter>Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Crusier.cpp">
+      <Filter>Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Destroyer.cpp">
+      <Filter>Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Ship</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Enum.cpp" />
+    <ClCompile Include="Struct.cpp" />
+    <ClCompile Include="BattleShipMain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\lib\BGNL.lib" />
+    <Library Include="..\lib\BGNL_debug.lib" />
+  </ItemGroup>
+</Project>
